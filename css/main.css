@@ -1,4 +1,32 @@
 body {
-  font-family: sans-serif; }
+  background: #eee;
+  font-family: sans-serif;
+  color: #484848;
+  padding: 0;
+  margin: 0; }
+
+header {
+  height: 240px;
+  background: url(http://i.imgur.com/juCmSUw.jpg);
+  background-position: 25% 25%; }
+
+.answer-item {
+  text-align: center;
+  margin: 0 auto;
+  x-overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; }
+
+li {
+  text-align: center; }
+
+footer {
+  height: 70px;
+  background: #4B484F;
+  text-align: center;
+  padding-top: 3em; }
+
+span {
+  color: #eee; }
 
 /*# sourceMappingURL=main.css.map */
